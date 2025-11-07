@@ -47,13 +47,13 @@ const App = () => {
                     const mess = document.createElement("div");
 
                     setTimeout(() => {
-                      window.location.href = { link };
+                      mess.innerHTML = `<p>Redirecting to ${title}`;
+
+                    body.appendChild(mess);
                     }, 3000);
 
                     mess.classList.add("mess");
-                    mess.innerHTML = `<p>Redirecting to ${title}`;
-
-                    body.appendChild(mess);
+                    
                   }}
                 >
                   <img src={icon} width={30} />
