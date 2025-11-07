@@ -47,13 +47,12 @@ const App = () => {
                     const mess = document.createElement("div");
 
                     setTimeout(() => {
-                      mess.innerHTML = `<p>Redirecting to ${title}`;
+                      body.removeChild(mess);
+                    }, 3000);
+                    mess.innerHTML = `<p>Redirecting to ${title}`;
 
                     body.appendChild(mess);
-                    }, 3000);
-
                     mess.classList.add("mess");
-                    
                   }}
                 >
                   <img src={icon} width={30} />
