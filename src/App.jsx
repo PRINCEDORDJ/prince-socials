@@ -8,7 +8,7 @@ let body = document.querySelector("body");
 
 const App = () => {
   return (
-    <div className="flex items-center justify-center absolute top-10 left-0 right-0 max-md:absolute max-md:top-5">
+    <div className="flex items-center justify-center absolute top-10 left-0 right-0 max-md:absolute max-md:top-5  max-lg:max-md:h-screen w-full">
       <div className="outline-2 outline-blue-400 rounded-3xl px-5 py-10 max-md:py-5  w-[420px] max-lg:m-auto max-lg:max-md:w-[320px] left-0 right-0 m-auto">
         <div className="flex flex-col justify-center items-center ">
           <img
